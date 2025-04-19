@@ -1,0 +1,11 @@
+*.o
+*.so
+shlbind.py
+/*.jpg
+/*.params
+/coco.names
+shl.hhb.bm
+*.pyc
+__pycache__
+.venv
+*.whl
