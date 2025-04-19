@@ -16,9 +16,12 @@ ANCHORS = [
 ]
 
 # ================= 工具函数 =================
-def sigmoid(x):
+def sigmoid_acc(x):
     """ Sigmoid激活函数 """
     return 1 / (1 + np.exp(-x))
+
+def sigmoid(x):
+    return x/(2+2*np.abs(x))+0.5
 
 def load_tensor(txt_path, shape):
     """ 从txt文件加载张量数据 """

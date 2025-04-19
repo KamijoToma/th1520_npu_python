@@ -4,8 +4,11 @@ shlbind.py
 /*.jpg
 /*.params
 /coco.names
-shl.hhb.bm
+/shl.hhb.bm
 *.pyc
 __pycache__
 .venv
 *.whl
+*.mp4
+output/
+/*.out
